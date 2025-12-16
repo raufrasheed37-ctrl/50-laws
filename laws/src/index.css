@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-background text-muted font-sans;
+}
+
+h1,h2,h3,h4 {
+  @apply text-gold font-serif;
+}
+
+button {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+button:hover {
+  @apply scale-105 shadow-lg;
+}
+
